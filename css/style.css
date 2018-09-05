@@ -1,0 +1,46 @@
+
+#header{
+  text-align: center;
+  padding: 2em;
+  color: rgb(56, 13, 0);
+}
+
+#content{
+  text-align: center;
+  background-color: #ddd85f;
+  padding-bottom: 100%;
+  font-size: 30px;
+  padding-top: 3em;
+}
+html{
+  background-color: rgb(186, 91, 3);
+}
+h1{
+  font-size: 8em;
+  margin-bottom: 5px;
+  font-family: Anudaw;
+}
+h2{
+  font-family: Anudaw;
+  font-family: 2em;
+}
+li{
+  font-family: Sunset;
+  font-size: 50px;
+  list-style: none;
+}
+label{
+  font-family: Sunset;
+}
+.deleteButton, .toggleButton{
+  font-size: 45px;
+}
+@font-face {
+  font-family: Anudaw;
+  src: url(../fonts/ANUDRG.ttf);
+}
+
+@font-face {
+  font-family: Sunset;
+  src: url(../fonts/Sunflower-Highway.otf);
+}

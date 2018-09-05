@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>LISTAHAN</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link
+  </head>
+  <body>
+    <div id="header">
+      <h1>LISTAHAN</h1>
+      <h2>"para hindi ka magkalimot"</h2>
+    </div>
+
+    <div id="content">
+      <div class="add-task-set"><!--buttongroup of toggleAll + addtask -->
+        <button onclick="buttonHandlers.toggleAll()" style="font-size: 30px;" class="button" > V </button>
+        <label>Title:</label><input id="titleInput" style="font-size: 20px;" type="text" />
+        <label>Description:</label><input id="descInput" style="font-size: 20px;" type="text" />
+        <button onclick="buttonHandlers.addTask()" style="font-size: 30px;" class="button"> Add a Task</button>
+      </div>
+      <div class="change-task-set">
+        <button onclick="buttonHandlers.changeTask()" class="button">Change a Task</button>
+        <input id="changePositionInput" type="number" />
+        <input id="changeTitle" type="text"   />
+        <input id="changeDesc" type="text"   />
+      </div>
+      <ul>
+      </ul>
+      </div>
+    <script src="js/test.js"></script>
+  </body>
+</html>
